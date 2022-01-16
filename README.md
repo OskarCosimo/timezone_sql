@@ -11,7 +11,8 @@ Usage:
 Use gmt_offset to adjust times in GTM format https://en.wikipedia.org/wiki/List_of_UTC_time_offsets
 OR
 Use dst_offset to adjust times for Daylight Saving Time https://greenwichmeantime.com/daylight-saving-time/
-2) Convert your time if needed (from hours to seconds), with your favourite language
-3) Add or remove time (hours or seconds) from the current date/time of the server, with your favourite language
+2) Convert your GMT or DST time if needed (from hours to seconds), with your favourite language
+3) Add or remove time (convert it to seconds) from the specified date/time, with your favourite language
+4) Manipulate your time and re-convert it from seconds to a date/time
 
-The best use is always to transform the current date in epoc UNIX and then convert the hours into seconds and do the math operation
+The best use is always to transform the specified date in epoc UNIX and then convert the GMT or DST hours into seconds and do the math operation; the result should be reconverted in a date/time object
