@@ -15,4 +15,4 @@ Use dst_offset to adjust times for Daylight Saving Time https://greenwichmeantim
 3) Add or remove time (convert it to seconds) from the specified date/time, with your favourite language
 4) Manipulate your time and re-convert it from seconds to a date/time
 
-The best use is always to transform the specified date in epoc UNIX and then convert the GMT or DST hours into seconds and do the math operation; the result should be reconverted in a date/time object
+The best use is always to transform the specified date in UNIX epoch and then convert the GMT or DST hours into seconds and do the math operation; the result should be reconverted in a date/time object
